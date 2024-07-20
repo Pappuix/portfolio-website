@@ -10,7 +10,7 @@
 header {
     width: 100%;
     height: 100vh;
-    background-image: url(./img/black-backgroun-img-01-01-01.jpg);
+    background-image: url(./black-backgroun-img-01-01-01.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -385,7 +385,7 @@ nav .menu-item .fas{
 
 @media only screen and (max-width:600px) {
     header {
-        background-image: url(./img/mobile-picture.png);
+        background-image: url(./mobile-picture.png);
         /* background-color: black; */
     }
     .content-left {
