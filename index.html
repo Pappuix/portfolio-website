@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- ========================Header========================= -->
+    <header>
+        <div class="container">
+         <nav>
+             <div class="logo" style="color: white; font-weight: 600;" ><span style="color: #ff004f;">U</span>sama.</div>
+                 <div class="menu-item">
+                     <ul id="sidemenu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                     <i class="fas fa-bars" onclick="openmenu()"></i>
+                </div>
+         </nav>
+
+         <div class="content-left">
+            <h3>Website & Graphic Desinger</h3>
+            <h1>Hi, <br>I'm <span style="color:#ff004f;"> Usama Tasneem </span> </h1>
+            <h1>From Pakistan</h1>
+        </div>
+
+        </div>
+    </header>
+    <!-- ===========================Home=======================  -->
+   <main>
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="picture-left">
+                        <img src="./img/WhatsApp.jpg" alt="picture">
+                    </div>
+                    <div class="content-right">
+                       <h1 class="sub-title">About Me</h1>
+                        <p>Usama Tasneem here, a Computer Science student with a focus on AI applications.
+                            Proficient in graphic design and front-end development, I aim to fuse technology and
+                            design for practical solutions. Seeking connections with professionals in this field.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+
+                        <div class="tab-content active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX </span><br>Desigining Web/App interfaces</li>
+                                <li><span>Web Development </span><br>Web App Development</li>
+                                <li><span>App Development </span><br>Building Android / iOS apps</li>
+                            </ul>
+                        </div>
+
+                        
+                        <div class="tab-content" id="experience">
+                            <ul>
+                                <li><span>2023 - Current </span><br>Developed projects and designed <br>posts for Griffens Technology & Nexoleaf  </li>
+                                <li><span>2022 - 2023 </span><br>Designed social media and event posters <br>for Riphah International University.</li>
+                                <li><span>2020 - 2021 </span><br>Designed social media posts and contributed <br>to product designing for The Rock Organization</li>
+                                <li><span>2019 - 2020 </span><br>Designed social media posts and <br>promotional materials. for Sideways Organization</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-content" id="education">
+                            <ul>
+                                <li><span>2020 - 2024 </span><br>BS in Computer Science</li>
+                                <li><span>2017 - 2019  </span><br>Higher Education</li>
+                                <li><span>2015 - 2017 </span><br>Secondary Education</li>
+                            </ul>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================================Service==================================== -->
+         <section id="service">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="service-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Designs</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, ea.</p>
+                <a href="#">Learn More</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Designs</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, ea.</p>
+                <a href="#">Learn More</a>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Designs</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, ea.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- =============================Portfolio============================= -->
+<section id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="./img/new logo 2.jpg" alt="">
+                <div class="layer">
+                    <h3>Music Player</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, nobis?</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="./img/images.jpg" alt="">
+                <div class="layer">
+                    <h3>Online App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, nobis?</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="./img/1.jpg" alt="">
+                <div class="layer">
+                    <h3>Social Media</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, nobis?</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</section>
+
+<!-- =============================Contac Us======================= -->
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="left-content">
+                <h2 class="sub-title">Contact Me</h2>
+                <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+                <p><i class="fa-solid fa-phone"></i>0333-641157</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/usamagraphix" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/usamagraphix/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://x.com/usamaatasneem" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/usamatasneem/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+
+                <a href="./img/UsamaTasneem-ExectiveStudentService-CV.pdf" download class="btn2 btn">Download CV</a>
+            </div>
+            <div class="right-content">
+                <form name="submit-to-google-sheet" id="submit-to-google-sheet" onsubmit="submitForm(event)">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn2 btn">Submit</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="success-message" id="successMessage">
+            Form submitted successfully!
+        </div>
+
+    </div>
+</section>
+
+    </main> 
+<!-- =========================Footer========================== -->
+    <footer>
+        <div class="copyright">
+            <p>&copy; <span id="currentYear"></span> Usama Tasneem All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-content");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-links");
+            }
+
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-links");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        // ======================Menu Function============================
+        var sidemenu = document.getElementById("sidemenu");
+        
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right = "-150px"
+        }
+
+        
+
+
+
+        // ===========================Footer===========================
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+
+<!-- // =================================Form========================= -->
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx16pynJqUfhjGM2wxC0Z6XnNtRHMM5AGT52vGRj0elLJrC268BuWcXlTJ4jwg8nmdx/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+
+    function submitForm(event) {
+           event.preventDefault(); // Prevent default form submission
+
+            // You can add further validation or data handling here
+
+            // Show success message
+            document.getElementById('successMessage').style.display = 'block';
+
+            // Automatically hide message after 5 seconds
+            setTimeout(function() {
+                document.getElementById('successMessage').style.display = 'none';
+            }, 5000); // 5000 milliseconds = 5 seconds
+
+            document.getElementById("submit-to-google-sheet").reset();
+        }
+  </script>
+
+
+</body>
+</html>
